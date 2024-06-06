@@ -1,0 +1,59 @@
+body, h1, h4, div {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('goku-ultra-instinct-dragonball-thumb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    color: #000000;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/779606193191492986/AC6768B668CDCA9001D097BB3B50C8B1AA4ADEFA/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.product {
+    background-color: rgb(154, 210, 235);
+    border: 1px solid #7479d6;
+    box-shadow: 0px 2px 4px rgba(55, 13, 62, 0.1);
+    margin: 30px;
+    padding: 60 d px;
+    text-align: center;
+    transition: transform 0.2s;
+    max-width: 200px;
+}
+
+.product:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 4px 8px rgba(47, 37, 37, 0.2);
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    background-color: rgba(40, 35, 30, 0);
+}
+
+.description {
+    color: #301616;
+    font-size: 10px;
+    margin-bottom: 1px;
+}

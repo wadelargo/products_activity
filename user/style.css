@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .container{
+    margin: 0 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pageTitle{
+    background-image: linear-gradient(rgb(233, 94, 52), rgb(255, 81, 0));
+    padding: 20px 10px;
+    margin-bottom: 30px;
+  }
+  .headtitle{
+    color: aliceblue;
+    margin: 0 80px;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  
+  .thumb-img{
+    justify-content: center; 
+    align-items: center;  
+    width: 60%;
+  }
+  
+  .thumbnail{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #thumbnail{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .image{
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+  }
+  
+  .desc {
+    padding: 5px 30px;
+    width: 70%;
+    
+  }
+  
+  
+  #title{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  #price{
+    color: rgb(255, 95, 37);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  
+  .stock{
+    display: flex;
+  }
+  
+  #stock , .quant{
+    font-size: 15px;
+  }
+  
+  #stock{
+    margin-left: 30px;
+  }
+  
+  p{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  
+  
+  
